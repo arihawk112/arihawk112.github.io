@@ -1,0 +1,162 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+	text-align: center;
+}
+
+.youtube-video{
+	text-align: center;
+}
+
+
+/*HEADER*/
+.banner {
+    padding: 1px; 
+	display: flex;
+	justify-content: center;
+	
+}
+
+.logo {
+    max-width: 200px; /* Responsive logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.about-content {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start; 
+	gap: 50px; /*image and text */
+	line-height: 1.2; 
+    padding: 50px 0px; 
+	letter-spacing: 1.6px;
+	
+	
+}
+.about-me-container {
+    /*font-family: 'Helvetica', sans-serif; /* Set font to Helvetica */
+    font-size: 16px; /* default font size*/
+    line-height: 1.6;
+    color: #333; /* Set general text color */
+	padding: 0px 350px; 
+	text-align: left;
+	letter-spacing: 1.5px;
+
+}
+
+/*TITLES ACROSS THE PAGES*/
+.title {
+	text-align: center;
+    color: black;
+    font-size: 30px;
+	font-style: italic;
+	letter-spacing: 3px;
+    margin: 30px 0px 20px 0px; /* Top, Right, Bottom, Left */
+
+}
+
+/* NAV LINKS*/
+.nav-container {
+    text-align: center;
+	color: #000000;
+	letter-spacing: 1.5px
+}
+.nav-link {
+	font-size: 20px;
+    margin: 25px;
+	color: #000000;
+    text-decoration: none;
+}
+.nav-current {
+	font-size: 20px;
+	font-weight: bold;
+    margin: 25px;
+	color: #000000;
+    text-decoration: underline;
+	text-decoration-color: #B6101B;
+	text-underline-offset: 5px; 
+
+}
+.separator {
+		font-size: 25px;
+
+}
+
+
+.nav-link:hover {
+    color: #B6101B; 
+}
+
+/*PORTFOLIO PAGE*/
+.label {
+    color: black;
+    font-size: 15px;
+	font-style: italic;
+	letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+
+/*CONTACT ME PAGE*/
+.contact-container {
+    text-align: center;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.contact-form {
+    display: inline-block;
+    text-align: left; 
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Style for labels */
+.contact-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for text inputs and textareas */
+.contact-input,.contact-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+	resize: vertical;
+}
+
+.button-container {
+    display: flex;
+	gap: 465px;
+    margin-top: 10px; 
+}
+/* Style for submit and reset buttons */
+.contact-submit,.contact-reset {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+/* Hover effect for buttons */
+.contact-submit:hover,.contact-reset:hover {
+    background-color:#B6101B; 
+}
+
+
+
+html {
+    overflow-y: scroll;
+}
