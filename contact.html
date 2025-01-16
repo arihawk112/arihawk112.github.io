@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Me PAge">
+    <meta name="keywords" content="Contact, Contact me">
+    <meta name="author" content="Arion Aghaie">
+	<title>Contact</title>
+	
+
+</head>
+<body>
+
+<!--Logo banner placement-->
+<link rel="stylesheet" href="styles.css">
+<header class="banner">
+    <img src="logo.png" alt="Banner Image" class="logo">
+</header>
+
+<!--nav links-->
+
+<div class="nav-container">
+    <nav>
+        <a href="index.html" class="nav-link">Home</a> <span class="separator">|</span>
+        <a href="resume.html" class="nav-link">Resume</a> <span class="separator">|</span>
+        <a href="contact.html" class="nav-current">Contact</a> <span class="separator">|</span>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>      
+
+    </nav>
+</div>
+
+	    <h1 class="title">For all inquiries...</h1>
+
+ <div class="contact-container">
+    <form class="contact-form" action="submit_form.php" method="post">
+        <p>
+            <label for="name" class="contact-label">Name:</label><br>
+            <input type="text" id="name" name="name" class="contact-input" required>
+        </p>
+        <p>
+            <label for="phone" class="contact-label">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" class="contact-input" required>
+        </p>
+        <p>
+            <label for="email" class="contact-label">Email:</label><br>
+            <input type="email" id="email" name="email" class="contact-input" required>
+        </p>
+        <p>
+            <label for="comments" class="contact-label">Comments/Questions?:</label><br>
+            <textarea id="comments" name="comments" class="contact-textarea" rows="4" required></textarea>
+        </p>
+        <p>
+			<div class="button-container">
+            <input type="submit" class="contact-submit" value="Submit">
+            <input type="reset" class="contact-reset" value="Clear">
+			</div>
+        </p>
+    </form>
+</div>
+
+</body>
+</html>
