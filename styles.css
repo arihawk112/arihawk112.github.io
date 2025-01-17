@@ -112,7 +112,7 @@ h2{
     flex-basis: 25%; /* Each image takes up 25% of the container */
     box-sizing: border-box; /* Includes margin in width calculations */
     height: auto; /* Maintains aspect ratio */
-	width: 25%; /* Prevents images from becoming too large */
+	width: 30%; /* Prevents images from becoming too large */
 
 }
 
